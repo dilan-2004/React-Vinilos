@@ -1,0 +1,61 @@
+/*Logo de el nav*/
+.logo {
+    height: auto;
+    max-height: 64px;
+    width: auto;
+    max-width: 20vw;
+    margin-right: 1rem;
+}
+
+/*footer: la parte de abajo de la pagina*/
+#footer,
+footer {
+    display: block;
+    width: 100%;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*este es el body que se utiliza en todas todas las paginas*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/*iconos de las paginas que los utilizan*/
+.material-icons {
+    vertical-align: middle;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+/*nav*/
+.nav-wrapper {
+    box-sizing: border-box;
+    background-color: beige;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+/*letras de el nav a la derecha que contienen los enlaces*/
+.right a {
+    color: black;
+    font-size: 1rem;
+}
+
+/*titulo de el nav*/
+.brand-logo {
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+    color: black !important;
+}

@@ -1,0 +1,57 @@
+.custom-navbar {
+  background-color: #f5f5dc; /* Beige color matching the logo background */
+}
+
+.custom-navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.custom-navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #e63946; /* Hover color */
+}
+
+.custom-navbar .auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-navbar .auth-buttons .icon-button {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.custom-navbar .auth-buttons .icon-button:hover {
+  color: #e63946;
+}
+
+.custom-navbar .auth-buttons .icon-button span {
+  display: none;
+  position: absolute;
+  background: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  transform: translateY(30px);
+}
+
+.custom-navbar .auth-buttons .icon-button:hover span {
+  display: inline-block;
+}
