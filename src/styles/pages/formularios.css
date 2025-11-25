@@ -1,0 +1,22 @@
+.formulario {
+  display: flex;
+  min-height: 100vh;
+  min-width: 55vw;
+  align-items: center;
+  justify-content: center;
+}
+.w-full {
+    width: 90%;
+    border-radius: 1px;
+}
+.transform {
+    margin-top: 10px;
+    background-color: black;
+}
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    width: 200px;
+}

@@ -1,0 +1,19 @@
+h2{
+    color: black;
+}
+form{
+    height: 90%;
+    width: 50%;    
+    background-color: beige;
+    max-width: fit-content;
+    color: black;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    height: min-content;
+    width: 90%;
+}
+button{
+    margin-bottom: 10px;
+}
