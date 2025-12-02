@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import NavBar from './components/organisms/navbar';
-import Footer from './components/organisms/Footer.jsx';
+import Footer from './components/organisms/footer.jsx';
 import Home from './pages/home';
 import Products from './pages/productos';
 import ProductDetails from './pages/productDetails';
