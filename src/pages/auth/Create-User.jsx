@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Forms from '../../templates/Forms.jsx';
-import { createUserConfig } from './data/createUserConfig.jsx';
+import { createUserConfig } from './Data/createUserConfig.jsx';
 import { register } from '../../Services/UserService.jsx';
 import { generarMensaje } from '../../utils/GenerarMensaje.jsx';
 import '../../styles/pages/formularios.css';
