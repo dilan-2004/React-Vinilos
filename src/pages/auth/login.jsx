@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext'; 
 import Forms from '../../templates/Forms';
-import { loginData } from './data/loginData';
+import { loginData } from './Data/LoginData';
 import { login as loginService } from '../../Services/UserService';
 import { generarMensaje } from '../../utils/GenerarMensaje';
 import '../../styles/pages/formularios.css'; 
