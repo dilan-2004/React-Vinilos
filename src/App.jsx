@@ -6,7 +6,7 @@ import Home from './pages/home';
 import Products from './pages/productos';
 import ProductDetails from './pages/productDetails';
 import Login from './pages/auth/login';
-import CreateUser from './pages/auth/create-user';
+import CreateUser from './pages/auth/Create-User';
 import Blog from './pages/blog';
 import Contacto from './pages/contacto';
 import Nosotros from './pages/nosotros';
