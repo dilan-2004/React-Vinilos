@@ -18,7 +18,7 @@ const PublicRoute = ({ children }) => {
   if (loading) return <div>Cargando...</div>;
 
   if (user) {
-    return <Navigate to={user.rol === 'ADMIN' ? '/admin/dashboard' : '/'} replace />;
+    return <Navigate to={user?.rol?.toUpperCase === 'ADMIN' ? '/admin/dashboard' : '/'} replace />;
   }
   return children;
 };
@@ -32,8 +32,13 @@ const PrivateRoute = ({ children, adminOnly = false }) => {
     return <Navigate to="/login" replace />;
   }
 
-  if (adminOnly && !(user?.rol === 'ADMIN' || user?.rol?.nombre === 'ADMIN')) {
-    return <Navigate to="/" replace />;
+  
+  if (adminOnly) {
+    const role = typeof user.rol === 'string' ? user.rol : user.rol?.nombre;
+    if (!role || role.toUpperCase() !== 'ADMIN') {
+      console.log("ROL DE USUARIO NO ADMIN", role);
+      return <Navigate to="/" replace />;
+    }
   }
 
   return children;
@@ -45,7 +50,7 @@ const LoginRoute = () => {
   if (loading) return <div>Cargando...</div>;
 
   if (user) {
-    return <Navigate to={user.rol === 'ADMIN' ? '/admin/dashboard' : '/'} replace />;
+    return <Navigate to={user?.rol?.toUpperCase() === 'ADMIN' ? '/admin/dashboard' : '/'} replace />;
   }
 
   return <Login />;
