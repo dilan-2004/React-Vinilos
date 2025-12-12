@@ -19,7 +19,7 @@ function Nosotros() {
         </div>
 
         <p>
-          Todo comenzó con una conversación entre tres amigos: Dilan Barrios,
+          Todo comenzó con una conversación entre dos amigos: Dilan Barrios,
           Mathew Leyton, en una cafetería universitaria donde
           el ruido de la ciudad competía con el sonido de un viejo tocadiscos
           que giraba en una esquina. Entre risas, anécdotas y una pasión
