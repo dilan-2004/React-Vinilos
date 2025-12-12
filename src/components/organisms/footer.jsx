@@ -1,8 +1,8 @@
-import React from 'react';
-import '../../styles/organisms/Footer.css'; 
 
 import React from "react";
-import "./Footer.css";
+import '../../styles/organisms/Footer.css'; 
+
+
 
 export default function Footer() {
   return (
