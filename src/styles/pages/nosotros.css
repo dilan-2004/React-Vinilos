@@ -15,20 +15,28 @@
 }
 
 .nosotros-card {
-    position: relative;
+     position: relative;
     z-index: 2;
     max-width: 900px;
-    background: rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.95);
     padding: 40px 50px;
     border-radius: 15px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
 }
+
+.logo-nosotros{
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+}
+
 
 .nosotros-title {
     color: #222;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
     margin-bottom: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase; 
 }
