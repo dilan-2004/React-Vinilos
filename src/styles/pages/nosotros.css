@@ -1,22 +1,47 @@
-.nosotros-background .nosotros-card {
-    max-width: 900px !important;
-    background: rgba(255, 255, 255, 0.95) !important;
-    padding: 40px 50px !important;
-    border-radius: 15px !important;
-    margin: 0 auto !important;
+.nosotros-background {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("https://i.imgur.com/HXqV4wI.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
 }
 
-.nosotros-background .logo-nosotros {
-    max-width: 180px !important;
-    width: 100% !important;
-    height: auto !important;
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
 }
 
-.nosotros-background .nosotros-title {
-    font-size: 36px !important;
+
+.nosotros-card {
+     position: relative;
+    z-index: 2;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
 }
 
-.nosotros-background .nosotros-card p {
-    font-size: 1.1rem !important;
-    line-height: 1.7 !important;
+
+.logo-nosotros{
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.nosotros-title {
+    color: #222;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
