@@ -1,0 +1,35 @@
+.custom-navbar {
+  background-color: #f5f5dc;
+  width: 100%;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 40%;
+  margin-right: 10%;
+}
+
+.custom-navbar .nav-link {
+  margin: 0 10px; 
+  color: black;
+}
+.custom-navbar .nav-link:hover {
+  
+  text-decoration: underline;
+}
+
+.custom-navbar .auth-buttons .icon-button:hover span {
+  display: inline-block;
+}
+
+.navbar-logo {
+  height: 65px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.navbar-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'poppins', sans-serif;
+}

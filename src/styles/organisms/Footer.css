@@ -1,0 +1,58 @@
+.logo {
+    height: auto;
+    max-height: 64px;
+    width: auto;
+    max-width: 20vw;
+    margin-right: 1rem;
+}
+
+#footer,
+footer {
+    display: block;
+    width: 100%;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+.nav-wrapper {
+    box-sizing: border-box;
+    background-color: beige;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.right a {
+    color: black;
+    font-size: 1rem;
+}
+
+.footer {
+    background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 18px 10px;
+  margin-top: 50px;
+  font-size: 14px;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  letter-spacing: 0.5px;
+}
